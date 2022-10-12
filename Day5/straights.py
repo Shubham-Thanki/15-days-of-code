@@ -13,6 +13,7 @@ for i in range(len(nums)):
         b = nums[i]
     if nums[i] > a and nums[i] > b:
         flag = True
+        break
 if flag:
     print('true')
 else:
